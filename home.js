@@ -47,4 +47,20 @@ console.log(res);
 /*створити функцію яка  створює блок з текстом. Текст задати через аргумент*/
 
 
+function createDiv(header, text) {
+    document.write(
+        `<div>
+			<h1>${header}</h1>
+			<p>${text}</p>
+		</div>`
+    );
+}
 
+createDiv('Monday', 'Lesson1');
+createDiv('Tuesday', 'Lesson2');
+createDiv('Wednesday', 'Lesson3');
+
+
+/*створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий*/
+
+function li (){}
