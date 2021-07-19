@@ -28,7 +28,7 @@ console.log(all[3]);
 /*Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль*/
 let names = [
     [`Olia`],
-    [`Orysia`],
+    [`Orusia`],
     [`Maria`]
 ];
     for (const name1 of names) {
@@ -51,9 +51,19 @@ document.write(`</div>`)
 
 /*За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*/
 
+let animals1 = [
+    {name:`coala`, color: `black`, status: true},
+    {name:`tiger`, color: `grey`, status: false}
+];
+document.write(`<div>`);
+for (const animal of animals1) {
+    document.write(`<div> ${animal.name} - ${animal.color} - ${animal.status}</div>`)
+}
+for (let i =0; i<animals1.length; i++){
+    const animal = animals1[i]
+    document.write(`<div>${animal.color}</div>`)
+}
 
-
-
-
+/*За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
 
 

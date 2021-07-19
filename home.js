@@ -55,7 +55,6 @@ function createDiv(header, text) {
 		</div>`
     );
 }
-
 createDiv('Monday', 'Lesson1');
 createDiv('Tuesday', 'Lesson2');
 createDiv('Wednesday', 'Lesson3');
@@ -63,4 +62,13 @@ createDiv('Wednesday', 'Lesson3');
 
 /*створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий*/
 
-function li (){}
+function createDiv1(text){
+    document.write(`<ul> 
+<li> ${text}</li>
+<li>${text}</li>
+<li>${text}</li>
+</ul>`
+    );
+}
+createDiv1(`Summer`);
+
