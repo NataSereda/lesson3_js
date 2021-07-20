@@ -3,6 +3,7 @@
 - з 5 стічкових значень
 - з 5 значень стрічкового, числового та булевого типу
 - та вивести його в консоль*/
+/*
 
 let num  = [2,4,8,9,10];
 
@@ -23,9 +24,11 @@ console.log(all[0]);
 console.log(all[1]);
 console.log(all[2]);
 console.log(all[3]);
+*/
 
 
 /*Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль*/
+/*
 let names = [
     [`Olia`],
     [`Orusia`],
@@ -34,12 +37,12 @@ let names = [
     for (const name1 of names) {
         console.log(name1)
     }
-
+*/
 
     /*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині*/
 
 
-let animals = [
+/*let animals = [
     {name:`panda`, color: `black`, status: true},
     {name:`monkey`, color: `grey`, status: false}
 ];
@@ -47,23 +50,107 @@ document.write(`<div>`);
 for (const animal of animals) {
     document.write(`<div> ${animal.name} - ${animal.color} - ${animal.status}</div>`)
 }
-document.write(`</div>`)
+document.write(`</div>`)*/
+
+/*for (let i = 0; i < 10; i++) {
+    document.write(`<div>text ${i}
+</div>`)
+
+}*/
 
 /*За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*/
 
-let animals1 = [
-    {name:`coala`, color: `black`, status: true},
-    {name:`tiger`, color: `grey`, status: false}
-];
-document.write(`<div>`);
-for (const animal of animals1) {
-    document.write(`<div> ${animal.name} - ${animal.color} - ${animal.status}</div>`)
-}
-for (let i =0; i<animals1.length; i++){
-    const animal = animals1[i]
-    document.write(`<div>${animal.color}</div>`)
-}
 
 /*За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
+/*
+
+let i = 0;
+while (i<20) {
+    document.write(`<h1>text ${i}</h1>`)
+    i++;
+}*/
 
 
+
+/*
+- Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.*/
+
+/*
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+for (const number of numbers) {
+    console.log(number);
+}
+*/
+
+
+
+/*Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.*/
+
+/*let string = [`1`, `2`,`3`, `4`,`5`, `6`];
+for (const string1 of string) {
+    console.log(string1)
+
+}*/
+
+/*Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі*/
+
+/*let text = [1,2,3,4, `fefef`,`lsfclsvl`, false];
+for (const textElement of text) {
+    console.log(textElement)
+}*/
+
+
+/*З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
+Записати цей об'єкт в новий масив
+Example:
+let usersWithCities = [
+    {
+        id: 1, // <===
+        name: 'vasya',
+        age: 31,
+        status: false,
+        address: {
+            user_id: 1, // <===
+            country: 'Ukraine',
+            city: 'Ternopil'
+        }
+    },*/
+
+/*
+
+let usersWithId = [
+    {id: 1, name: 'vasya', age: 31, status: false},
+    {id: 2, name: 'petya', age: 30, status: true},
+    {id: 3, name: 'kolya', age: 29, status: true},
+    {id: 4, name: 'olya', age: 28, status: false}
+];
+
+let citiesWithId = [
+    {user_id: 3, country: 'USA', city: 'Portland'},
+    {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+    {user_id: 2, country: 'Poland', city: 'Krakow'},
+    {user_id: 4, country: 'USA', city: 'Miami'}
+];
+
+
+let usersWithCities = [];
+for (const user of usersWithId) {
+    for (const city of citiesWithId) {
+        if (user.id === city.user_id){
+            usersWithCities.push
+            (
+                {id:user.id, name: user.name, age: user.age, status: user.status,
+                    address: {
+                    userId: city.user_id,
+                        country: city. country,
+                        city: city.city
+                    }
+            }
+            )
+        }
+    }
+}
+console.log(usersWithId);
+console.log(citiesWithId);
+console.log(usersWithCities);
+*/
