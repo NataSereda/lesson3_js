@@ -21,37 +21,51 @@ for (const userElement of user.keys(${name}))
 console.log(str1)*/
 
 
-let users = [{ name: `Dima`,
-    age: 13,
-    model:`Camry`}];
-for (let user of user.key) {
-    for (let key in users){
+let users = [
+    { name: `Dima`,
+    age: 13,},
+    { model:`Camry`}];
+function name1 (arr) {
+    let users1 = [];
+    for (let obj of arr) {
+        for (let key in obj) {
+            users1.push(key)
 
-        console.log(user.key)
+        }
     }
+    return users1
 }
+let res = name1(users);
+console.log(res);
 
 
 
+/*Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
+EXAMPLE:
+[{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]*/
 
-/*
+let users1 = [
+    { name: `Dima`,
+        age: 13,},
+    { model:`Camry`}];
+function name2 (arr) {
+    let users2 = [];
+    for (let name1 of arr) {
+        for (let users1 in name1) {
+            users2.push(name1[users1])
 
-keys = Object.keys(user)
-
-for (let i = 0, l = keys.length; i < l; i++) {
-    console.log (keys [i] + user [keys[i]
-        ]
-    )
-}*/
-
-
-
-
-/*створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.*/
-
-let Random = () => {
-    let array = [];
+        }
+    }
+    return users2
 }
- for (let i = 0; i < value; i++){
-array.push (Math.floor(Math.random()*num));
- }
+let res1 = name2(users1);
+console.log(res1);
+
+/*створити функцію яка заповнює масив рандомними числами
+* (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+*/
+let gen = [];
+for (i = 0; i < 20; i++) {
+    gen.push( Math.round( Math.random() * 100 ));
+}
+console.log(gen)
