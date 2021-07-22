@@ -157,49 +157,53 @@ console.log(usersWithCities);
 
 /*Дан масив ['a', 'b', 'c']. Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу.*/
 
-let text = [`a`,`b`,`c`];
+/*let text = [`a`,`b`,`c`];
 text.push(1,2,3);
-console.log(text);
+console.log(text);*/
 
 /*Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6.*/
- let ex = [1,2,3];
+/* let ex = [1,2,3];
  ex.unshift(4,5,6,);
- console.log(ex);
+ console.log(ex);*/
 
  /*Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1].*/
+/*
 
 let numb=[1,2,3,];
 numb.reverse();
 console.log(numb)
+*/
 
 
 /*Дан масив [1, 2, 3, 4, 5]. Перетворіть масив в [4, 5].*/
 
-let numbers =  [1, 2, 3, 4, 5];
+/*let numbers =  [1, 2, 3, 4, 5];
 let slice = numbers.slice(3,5)
-console.log(slice);
+console.log(slice);*/
 
 /*Дан масив [1, 2, 3, 4, 5]. Перетворіть масив в [1,2].*/
-let numb1 =  [1, 2, 3, 4, 5];
+/*let numb1 =  [1, 2, 3, 4, 5];
 let slice1 = numb1.slice(0,2)
-console.log(slice1);
+console.log(slice1);*/
 
 
 /*Дан масив [1, 2, 3, 4, 5]. Зробіть з нього масив [1, 2, 3, 'a', 'b', 'c'].
 */
-let mas2 = [1, 2, 3, 4, 5];
+/*let mas2 = [1, 2, 3, 4, 5];
 mas2.splice(3,5, `a`,`b`,`c`);
-console.log(mas2)
+console.log(mas2)*/
 
 /*Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.*/
 
+/*
 let june = [1,2,3];
 june.push(4,5,6,)
 console.log(june)
+*/
 
 /*Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними*/
 
-let numb6 = [5,9,10,40,66,8,7,3,26,20];
+/*let numb6 = [5,9,10,40,66,8,7,3,26,20];
 
 for (let i = 0; i < numb6.length; i++)
 {
@@ -207,38 +211,38 @@ for (let i = 0; i < numb6.length; i++)
  {
   console.log(numb6[i]);
  }
-}
+}*/
 
 /*Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
 */
-let numb3 = [22,30,40,50];
+/*let numb3 = [22,30,40,50];
 let numb4 = [];
 numb4.push(numb3);
-console.log(numb4);
+console.log(numb4);*/
 
 /*Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.*/
-let mas = [ 'a', 'b', 'c'];
+/*let mas = [ 'a', 'b', 'c'];
 let  str = "";
 for (u = 0; u < mas.length; u++){
  str = str + mas[u]
 }
-console.log(str);
+console.log(str);*/
 /*
  Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.*/
-while (u < mas.length){
+/*while (u < mas.length){
 
  str = str + mas[u];
  u++;
 };
-console.log(str);
+console.log(str);*/
 
 /*Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.*/
-text1 = [ 'a', 'b', 'c'];
+/*text1 = [ 'a', 'b', 'c'];
 str = "";
 for (const string of text1){
  str = str + string;
 }
-console.log(str);
+console.log(str);*/
 
 
 /*створити функцію яка заповнює масив рандомними числами
@@ -256,6 +260,7 @@ console.log(gen)*/
   результат
   [3,5,7,9]*/
 
+/*
 const sumArray = (array1,array2) => {
  let newArray = [];
  for (let i = 0; i < array1.length; i++) {
@@ -264,4 +269,4 @@ const sumArray = (array1,array2) => {
  return newArray;
 }
 const returnArrayConst = sumArray([1,2,3,4],[2,3,4,5]);
-console.log(returnArrayConst);
+console.log(returnArrayConst);*/
