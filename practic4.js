@@ -24,9 +24,9 @@ let users = [new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`),
 ];
 
 
-let filter2 = users.filter(user => user.id %2===0);
+let filter = users.filter(user => user.id %2===0);
 
-console.log(filter2)
+console.log(filter)
 
 users.sort((a,b) => b.id - a.id)
 
