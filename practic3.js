@@ -104,10 +104,11 @@ console.log( filter );*/
 });
 console.log(map);*/
 
-/*Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
-створити пустий масив, наповнити його 10 об'єктами new User(....)
-Взяти масив цей  User[] та: Відфільтрувати , залишивши тільки об'єкти з парними id (filter) та Відсортувати його по id. по зростанню (sort)*/
 /*
+/!*Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
+створити пустий масив, наповнити його 10 об'єктами new User(....)
+Взяти масив цей  User[] та: Відфільтрувати , залишивши тільки об'єкти з парними id (filter) та Відсортувати його по id. по зростанню (sort)*!/
+
 
 class User {
 constructor (id, name, surname, email, phone) {
@@ -117,17 +118,19 @@ constructor (id, name, surname, email, phone) {
  this.email = email;
  this.phone = phone;
 }
+
 }
-const1 = new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`);
-const2  = new User(2, `Olia`, `Mok`, `sdvgsd@gmail.com`, `021564`);
-const3 = new User(3, `Kate`, `Dulk`, `nsegfsdt@gmail.com`, `0211164`);
-const4  = new User(4, `Sofia`, `long`, `dss@gmail.com`, `021311164`);
-const5 = new User(5, `Lilia`, `Short`, `sdvfsd@gmail.com`, `02333564`);
+const natalia = new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`)
+const olia  = new User(2, `Olia`, `Mok`, `sdvgsd@gmail.com`, `021564`)
+const kate = new User(3, `Kate`, `Dulk`, `nsegfsdt@gmail.com`, `0211164`)
+const sofa = new User(4, `Sofia`, `long`, `dss@gmail.com`, `021311164`)
+const lilia = new User(5, `Lilia`, `Short`, `sdvfsd@gmail.com`, `02333564`)
 
 
-console.log(const1)
-console.log(const2)
+console.log( )
+console.log()
 */
+
 
 
 
@@ -140,7 +143,7 @@ console.log(const2)
 // ==============================================*/
 
 
-
+/*
 
 class Car {
 	constructor(model, manufacturer, year, maxSpeed, volumeEngine) {
@@ -183,5 +186,6 @@ nissan.info()
 nissan.increaseMaxSpeed(20)
 nissan.changeYear()
 nissan.addDriver(`Olia`)
+*/
 
 
