@@ -10,19 +10,28 @@ class User {
         this.surname = surname;
         this.email = email;
         this.phone = phone;
+
     }
 
+
 }
-const natalia = new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`)
-const olia  = new User(2, `Olia`, `Mok`, `sdvgsd@gmail.com`, `021564`)
-const kate = new User(3, `Kate`, `Dulk`, `nsegfsdt@gmail.com`, `0211164`)
-const sofa = new User(4, `Sofia`, `long`, `dss@gmail.com`, `021311164`)
-const lilia = new User(5, `Lilia`, `Short`, `sdvfsd@gmail.com`, `02333564`)
+let users = [new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`),
+    new User(2, `Olia`, `Mok`, `sdvgsd@gmail.com`, `021564`),
+    new User(3, `Kate`, `Dulk`, `nsegfsdt@gmail.com`, `0211164`),
+    new User(4, `Sofia`, `long`, `dss@gmail.com`, `021311164`),
+    new User(5, `Lilia`, `Short`, `sdvfsd@gmail.com`, `02333564`)
+
+];
 
 
+let filter2 = users.filter(user => user.id %2===0);
+
+console.log(filter2)
+
+users.sort((a,b) => b.id - a.id)
+
+console.log(users)
 
 
-
-
-console.log( )
+console.log()
 console.log()
