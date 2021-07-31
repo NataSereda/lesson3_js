@@ -1,8 +1,4 @@
-/*
-for (let s = 0; s < 5; s++) {
-    console.log(s)
-}
-*/
+
 
 
 /*Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
@@ -10,21 +6,9 @@ EXAMPLE:
 [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 */
 
-/*
-let user =[{
-    name: `Dima`,
-    age: 13,
-},
-{model:`Camry`}
-]
-for (const userElement of user.keys(${name}))
-{ str1 = str + userElement
-
-}
-console.log(str1)*/
-
 
 /*
+
 let users = [
     { name: `Dima`,
     age: 13,},
@@ -41,29 +25,29 @@ function name1 (arr) {
 }
 let res = name1(users);
 console.log(res);
-*/
 
+*/
 
 /*Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 EXAMPLE:
 [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]*/
 
-// let users1 = [
-//     { name: `Dima`,
-//         age: 13,},
-//     { model:`Camry`}];
-// function name2 (arr) {
-//     let users2 = [];
-//     for (let name1 of arr) {
-//         for (let users1 in name1) {
-//             users2.push(name1[users1])
-//
-//         }
-//     }
-//     return users2
-// }
-// let res1 = name2(users1);
-// console.log(res1);
+/*let users1 = [
+    { name: `Dima`,
+        age: 13,},
+    { model:`Camry`}];
+function name2 (arr) {
+    let users2 = [];
+    for (let name1 of arr) {
+        for (let users1 in name1) {
+            users2.push(name1[users1])
+
+        }
+    }
+    return users2
+}
+let res1 = name2(users1);
+console.log(res1);*/
 
 /*створити функцію яка заповнює масив рандомними числами
 * (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
@@ -73,7 +57,8 @@ let gen = [];
 for (i = 0; i < 20; i++) {
     gen.push( Math.round( Math.random() * 100 ));
 }
-console.log(gen)*/
+console.log(gen)
+*/
 
 
 /*
@@ -104,32 +89,8 @@ console.log( filter );*/
 });
 console.log(map);*/
 
-/*
-/!*Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
-створити пустий масив, наповнити його 10 об'єктами new User(....)
-Взяти масив цей  User[] та: Відфільтрувати , залишивши тільки об'єкти з парними id (filter) та Відсортувати його по id. по зростанню (sort)*!/
 
 
-class User {
-constructor (id, name, surname, email, phone) {
- this.id = id;
- this.name = name;
- this.surname = surname;
- this.email = email;
- this.phone = phone;
-}
-
-}
-const natalia = new User(1, `Natalia`, `Sereda`, `nat@gmail.com`, `02123464`)
-const olia  = new User(2, `Olia`, `Mok`, `sdvgsd@gmail.com`, `021564`)
-const kate = new User(3, `Kate`, `Dulk`, `nsegfsdt@gmail.com`, `0211164`)
-const sofa = new User(4, `Sofia`, `long`, `dss@gmail.com`, `021311164`)
-const lilia = new User(5, `Lilia`, `Short`, `sdvfsd@gmail.com`, `02333564`)
-
-
-console.log( )
-console.log()
-*/
 
 
 
